@@ -1,16 +1,37 @@
-# React + Vite
+# TaskFlow — Simple Task Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a production-grade, highly responsive, single-page task management application designed to organize, track, and streamline daily workflows. Built using a modern React architecture, it combines utility-first styling with atomic components to deliver clean user experiences across mobile, tablet, and desktop viewports.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo & Repository
+* **GitHub Repository:** [Insert your GitHub URL here]
+* **Vercel Deployment:** [Insert your Vercel URL here]
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### 1. Full CRUD Capabilities
+* **Create:** Instantly add tasks via an accessible overlay form modal featuring real-time input validations.
+* **Read:** View a comprehensive, paginated stream of micro-tasks dynamically rendered through high-performance dashboard layouts.
+* **Update:** Seamlessly inline-edit existing item properties (Title, Descriptions, and Status markers).
+* **Delete:** Trash absolute entries safely with immediate structural UI updates and confirmation guardrails.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Advanced Control Systems
+* **Status Toggle:** Instantly alternate states between ` Pending` and `Completed`.
+* **Live Search Routing:** Filter out targeted nodes instantly via structural substring parsing against text matching metrics.
+* **Status Milestones:** Segment and display target scopes via global layout selectors (`All`, `Pending`, `Completed`).
+* **Server-Side Style Pagination:** Divide massive structural lists into lean, digestible item sets to maximize visual processing efficiency.
+* ** Global Theme Swap:** Dynamic native Dark Mode support integrated directly with local browser preferences.
+
+---
+
+## Technical Stack & Frameworks
+
+* **Frontend Engine:** React.js (Functional Components, Hooks)
+* **Styling Framework:** Tailwind CSS (Fluid Grid Engines, Adaptive Dark Variant Injections)
+* **Database & Persistence:** Google Cloud Firestore (Regional Optimization: `africa-south1` / `europe-west2`)
+* **State Operations:** React Context API + Local State Handlers
+* Development Bundle Pipeline: Vite JS
+
