@@ -6,7 +6,7 @@ TaskFlow is a production-grade, highly responsive, single-page task management a
 
 ## Live Demo & Repository
 * **GitHub Repository:** https://github.com/iniesta375
-* **Vercel Deployment:** [Insert your Vercel URL here]
+* **Vercel Deployment:** https://flowsync-task.vercel.app
 
 ---
 
