@@ -27,7 +27,7 @@ export default function LandingPage() {
           <div style={{ width: 32, height: 32, borderRadius: 9, background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <CheckSquare size={16} color="#fff" />
           </div>
-          <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '1.05rem', color: 'var(--text)' }}>TaskFlow</span>
+          <span style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '1.05rem', color: 'var(--text)' }}>FlowSync</span>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -105,7 +105,7 @@ export default function LandingPage() {
           Ready to get organized?
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.8)', marginBottom: '2rem', fontSize: '1rem' }}>
-          Join thousands of people who manage their day with TaskFlow.
+          Join thousands of people who manage their day with FlowSync.
         </p>
         <Link to="/register" style={{ textDecoration: 'none', background: '#fff', color: 'var(--accent)', padding: '0.8rem 2rem', borderRadius: 12, fontWeight: 700, fontSize: '1rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
           Create free account <ArrowRight size={16} />
