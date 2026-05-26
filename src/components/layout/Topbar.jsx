@@ -32,7 +32,7 @@ export default function Topbar({ onMenuClick }) {
         className="md:hidden"
         style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-muted)', display: 'flex' }}
       >
-        <Menu size={22} />
+        <Menu  size={22} />
       </button>
 
       <h1 style={{ fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: '1.1rem', color: 'var(--text)', flex: 1 }}>

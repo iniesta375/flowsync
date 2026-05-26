@@ -34,8 +34,8 @@ export default function LandingPage() {
           <button onClick={toggleDark} style={{ width: 34, height: 34, borderRadius: 9, background: 'var(--accent-light)', border: 'none', cursor: 'pointer', color: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Moon size={15} />
           </button>
-          <Link to="/login" className="btn-ghost" style={{ textDecoration: 'none', fontSize: '0.875rem' }}>Sign In</Link>
-          <Link to="/register" className="btn-primary" style={{ textDecoration: 'none', fontSize: '0.875rem' }}>Get Started</Link>
+          <Link to="/login" className="btn-ghost px-3 py-2 sm:px-4 text-xs sm:text-sm font-medium transition-all duration-200">Sign In</Link>
+          <Link to="/register"className="btn-primary px-3.5 py-2 sm:px-5 text-xs sm:text-sm font-medium rounded-xl whitespace-nowrap shadow-sm hover:shadow transition-all duration-200">Get Started</Link>
         </div>
       </nav>
 
